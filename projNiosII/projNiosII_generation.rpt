@@ -1,0 +1,223 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/" --output-directory="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/" --report-file="bsf:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.bsf" --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.qsys"
+Progress: Loading projNiosII/projNiosII.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_0
+Progress: Adding pio_LED [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LED
+Progress: Adding pio_Switches [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_Switches
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 13.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding altpll_0 [altpll 13.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding spi_master [altera_avalon_spi 13.1]
+Progress: Parameterizing module spi_master
+Progress: Adding spi_slave [altera_avalon_spi 13.1]
+Progress: Parameterizing module spi_slave
+Progress: Adding pio_LCD_data [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LCD_data
+Progress: Adding pio_LCD_control [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LCD_control
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projNiosII.pio_Switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: projNiosII.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
+Warning: projNiosII.altpll_0: altpll_0.locked_conduit must be exported, or connected to a matching conduit.
+Warning: projNiosII.altpll_0: altpll_0.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/" --output-directory="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/" --file-set=QUARTUS_SYNTH --report-file="html:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.html" --report-file="sopcinfo:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.sopcinfo" --report-file="cmp:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.cmp" --report-file="qip:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/projNiosII.qip" --report-file=svd --report-file="regmap:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/projNiosII.regmap" --report-file="debuginfo:O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/projNiosII.debuginfo" --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file="O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII.qsys" --language=VERILOG
+Progress: Loading projNiosII/projNiosII.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_0
+Progress: Adding pio_LED [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LED
+Progress: Adding pio_Switches [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_Switches
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 13.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding altpll_0 [altpll 13.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding spi_master [altera_avalon_spi 13.1]
+Progress: Parameterizing module spi_master
+Progress: Adding spi_slave [altera_avalon_spi 13.1]
+Progress: Parameterizing module spi_slave
+Progress: Adding pio_LCD_data [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LCD_data
+Progress: Adding pio_LCD_control [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_LCD_control
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projNiosII.pio_Switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: projNiosII.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
+Warning: projNiosII.altpll_0: altpll_0.locked_conduit must be exported, or connected to a matching conduit.
+Warning: projNiosII.altpll_0: altpll_0.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: projNiosII: Generating projNiosII "projNiosII" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 13 modules, 56 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 13 modules, 51 connections
+Info: merlin_translator_transform: After transform: 27 modules, 107 connections
+Info: merlin_domain_transform: After transform: 56 modules, 298 connections
+Info: merlin_router_transform: After transform: 70 modules, 354 connections
+Info: merlin_burst_transform: After transform: 71 modules, 358 connections
+Info: merlin_network_to_switch_transform: After transform: 98 modules, 430 connections
+Info: merlin_width_transform: After transform: 102 modules, 446 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src7 and cmd_xbar_mux_007.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_007.src0 and rsp_xbar_mux.sink7
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 104 modules, 460 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 108 modules, 569 connections
+Info: merlin_hierarchy_transform: After transform: 14 modules, 61 connections
+Info: merlin_mm_transform: After transform: 14 modules, 61 connections
+Info: merlin_interrupt_mapper_transform: After transform: 15 modules, 65 connections
+Info: reset_adaptation_transform: After transform: 18 modules, 68 connections
+Info: nios2_qsys_0: Starting RTL generation for module 'projNiosII_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec O:/altera/13.1/quartus/bin/eperlcmd.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I O:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I O:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I O:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- O:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=projNiosII_nios2_qsys_0 --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0001_nios2_qsys_0_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0001_nios2_qsys_0_gen//projNiosII_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2018.07.13 16:39:01 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2018.07.13 16:39:01 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   Couldn't query license setup in Quartus directory O:/altera/13.1/quartus
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2018.07.13 16:39:03 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2018.07.13 16:39:05 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2018.07.13 16:39:05 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2018.07.13 16:39:08 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'projNiosII_nios2_qsys_0'
+Info: nios2_qsys_0: "projNiosII" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: jtag_uart_0: Starting RTL generation for module 'projNiosII_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=projNiosII_jtag_uart_0 --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0002_jtag_uart_0_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0002_jtag_uart_0_gen//projNiosII_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'projNiosII_jtag_uart_0'
+Info: jtag_uart_0: "projNiosII" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: timer_0: Starting RTL generation for module 'projNiosII_timer_0'
+Info: timer_0:   Generation command is [exec O:/Altera/13.1/quartus/bin//perl/bin/perl.exe -I O:/Altera/13.1/quartus/bin//perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=projNiosII_timer_0 --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0003_timer_0_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0003_timer_0_gen//projNiosII_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'projNiosII_timer_0'
+Info: timer_0: "projNiosII" instantiated altera_avalon_timer "timer_0"
+Info: pio_LED: Starting RTL generation for module 'projNiosII_pio_LED'
+Info: pio_LED:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projNiosII_pio_LED --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0004_pio_LED_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0004_pio_LED_gen//projNiosII_pio_LED_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_LED: Done RTL generation for module 'projNiosII_pio_LED'
+Info: pio_LED: "projNiosII" instantiated altera_avalon_pio "pio_LED"
+Info: pio_Switches: Starting RTL generation for module 'projNiosII_pio_Switches'
+Info: pio_Switches:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projNiosII_pio_Switches --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0005_pio_Switches_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0005_pio_Switches_gen//projNiosII_pio_Switches_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_Switches: Done RTL generation for module 'projNiosII_pio_Switches'
+Info: pio_Switches: "projNiosII" instantiated altera_avalon_pio "pio_Switches"
+Info: new_sdram_controller_0: Starting RTL generation for module 'projNiosII_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=projNiosII_new_sdram_controller_0 --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0006_new_sdram_controller_0_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0006_new_sdram_controller_0_gen//projNiosII_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'projNiosII_new_sdram_controller_0'
+Info: new_sdram_controller_0: "projNiosII" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'projNiosII_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=projNiosII_onchip_memory2_0 --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0007_onchip_memory2_0_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0007_onchip_memory2_0_gen//projNiosII_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'projNiosII_onchip_memory2_0'
+Info: onchip_memory2_0: "projNiosII" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: altpll_0: "projNiosII" instantiated altpll "altpll_0"
+Info: spi_master: Starting RTL generation for module 'projNiosII_spi_master'
+Info: spi_master:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=projNiosII_spi_master --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0010_spi_master_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0010_spi_master_gen//projNiosII_spi_master_component_configuration.pl  --do_build_sim=0  ]
+Info: spi_master: Done RTL generation for module 'projNiosII_spi_master'
+Info: spi_master: "projNiosII" instantiated altera_avalon_spi "spi_master"
+Info: spi_slave: Starting RTL generation for module 'projNiosII_spi_slave'
+Info: spi_slave:   Generation command is [exec O:/altera/13.1/quartus/bin/perl/bin/perl.exe -I O:/altera/13.1/quartus/bin/perl/lib -I O:/altera/13.1/quartus/sopc_builder/bin/europa -I O:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I O:/altera/13.1/quartus/sopc_builder/bin -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- O:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=projNiosII_spi_slave --dir=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0011_spi_slave_gen/ --quartus_dir=O:/altera/13.1/quartus --verilog --config=C:/Users/natha/AppData/Local/Temp/alt7725_7822487177921375854.dir/0011_spi_slave_gen//projNiosII_spi_slave_component_configuration.pl  --do_build_sim=0  ]
+Info: spi_slave: Done RTL generation for module 'projNiosII_spi_slave'
+Info: spi_slave: "projNiosII" instantiated altera_avalon_spi "spi_slave"
+Info: pipeline_bridge_swap_transform: After transform: 95 modules, 319 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 95 modules, 319 connections
+Info: mm_interconnect_0: "projNiosII" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "projNiosII" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "projNiosII" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_data_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "mm_interconnect_0" instantiated altera_merlin_router "id_router_001"
+Info: id_router_005: "mm_interconnect_0" instantiated altera_merlin_router "id_router_005"
+Info: id_router_006: "mm_interconnect_0" instantiated altera_merlin_router "id_router_006"
+Info: burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_001"
+Info: Reusing file O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_001"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file O:/SotonOneDrive/OneDrive - University of Southampton/3rd year/ProjGit/projNiosII/projNiosII/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: projNiosII: Done "projNiosII" with 36 modules, 53 files, 1557352 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

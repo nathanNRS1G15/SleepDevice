@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jul 13 17:07:20 2018
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
+Revision Name : projNiosII
+Top-level Entity Name : projNiosII
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 3,569 / 15,408 ( 23 % )
+    Total combinational functions : 3,183 / 15,408 ( 21 % )
+    Dedicated logic registers : 2,023 / 15,408 ( 13 % )
+Total registers : 2091
+Total pins : 72 / 347 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 420,864 / 516,096 ( 82 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
