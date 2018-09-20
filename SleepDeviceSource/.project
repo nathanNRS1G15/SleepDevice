@@ -3,6 +3,8 @@
 	<name>SleepDeviceSource</name>
 	<comment></comment>
 	<projects>
+		<project>projSleepDevice</project>
+		<project>projSleepDevice_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -101,7 +101,7 @@ ACDS_VERSION := 16.1
 # BUILD_NUMBER: 196
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/natha/Desktop/ProjGit/SleepDevice/projNiosII/projNiosII.sopcinfo
+SOPC_FILE := C:/Users/natha/Desktop/MyGithub/SleepDevice/projNiosII/projNiosII.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

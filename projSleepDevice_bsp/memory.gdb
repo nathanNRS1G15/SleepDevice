@@ -1,9 +1,9 @@
 # memory.gdb - GDB memory region definitions
 #
 # Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'projNiosII'
-# SOPC Builder design path: C:/Users/natha/Desktop/ProjGit/SleepDevice/projNiosII/projNiosII.sopcinfo
+# SOPC Builder design path: C:/Users/natha/Desktop/MyGithub/SleepDevice/projNiosII/projNiosII.sopcinfo
 #
-# Generated: Fri Jul 13 17:49:00 BST 2018
+# Generated: Thu Sep 20 11:55:16 BST 2018
 
 # DO NOT MODIFY THIS FILE
 #

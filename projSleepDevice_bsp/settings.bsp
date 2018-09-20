@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jul 13, 2018 5:48:59 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1531500539525</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\natha\Desktop\ProjGit\SleepDevice\projSleepDevice_bsp</BspGeneratedLocation>
-        <BspSettingsFile>.\settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\Users\natha\Desktop\ProjGit\SleepDevice\projNiosII\projNiosII.sopcinfo</SopcDesignFile>
+        <BspGeneratedTimeStamp>Sep 20, 2018 11:55:21 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1537440921716</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\natha\Desktop\MyGithub\SleepDevice\projSleepDevice_bsp</BspGeneratedLocation>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
+        <SopcDesignFile>C:\Users\natha\Desktop\MyGithub\SleepDevice\projNiosII\projNiosII.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_qsys_0</Cpu>
         <SchemaVersion>1.9</SchemaVersion>
@@ -14,7 +14,7 @@
                 <SettingName>hal.sys_clk_timer</SettingName>
                 <Identifier>ALT_SYS_CLK</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>none</Value>
+                <Value>timer_0</Value>
                 <DefaultValue>none</DefaultValue>
                 <DestinationFile>system_h_define</DestinationFile>
                 <Description>Slave descriptor of the system clock timer device. This device provides a periodic interrupt ("tick") and is typically required for RTOS use. This setting defines the value of ALT_SYS_CLK in system.h.</Description>

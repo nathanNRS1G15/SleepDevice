@@ -86,7 +86,7 @@ ACDS_VERSION := 16.1
 
 # Qsys--generated SOPCINFO file. Required for resolving node instance ID's with 
 # design component names. 
-SOPCINFO_FILE := C:/Users/natha/Desktop/ProjGit/SleepDevice/projNiosII/projNiosII.sopcinfo
+SOPCINFO_FILE := C:/Users/natha/Desktop/MyGithub/SleepDevice/projNiosII/projNiosII.sopcinfo
 
 # Big-Endian operation. 
 # setting BIG_ENDIAN is false
