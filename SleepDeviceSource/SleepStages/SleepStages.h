@@ -20,9 +20,10 @@ typedef enum {
 } SleepStage;
 
 typedef enum {
-	active = 1,
-	inactive = 0
-} SleepSessionStatus;
+	HIGH,
+	MEDIUM,
+	LOW
+} ActivityLevel;
 
 typedef struct {
 	alt_u16 sleepSessionTime;       //u16 gives maximum sleep session of 18.2 hours
@@ -30,7 +31,7 @@ typedef struct {
 } SleepSessionStage;
 
 typedef struct {
-	alt_u16 sleepSessionTime;
+	alt_u32 sleepSessionMilliSecondsCount;
 
 	alt_8  temperature;
 	alt_u8 humidty;
@@ -52,22 +53,24 @@ public:
 	alt_u32 getSleepSessionTime();
 	RetValue startSleepSession();
 	RetValue endSleepSession();
-	void incrementSleepSessionTime();
+	void incrementSleepSessionMilliSecondsCount();
 
 	SleepStages* getInstance();
 
 
 private:
-	alt_u32 sleepSessiontime;
+	alt_u32 sleepSessionTime;
 	alt_u32 sleepSessionStartTime;     //So we know when the sleep session started
 	SleepSessionSensorReadings* sleepSessionSensorReadings;      //Pointer to array of sleep session's sensor readings
-	alt_u16 sleepSessionSensorReadingsHead;
+	alt_u32 sleepSessionSensorReadingsHead;
 	SleepSessionStage* sleepSessionStages;                       //Pointer to array of approximated sleep session's sleep stages
 
 	SleepSessionStatus sessionStatus;
 
-
-
+	ActivityLevel getActivityOverLast30Seconds();
+	alt_u8 vibrationSensorMagnitude(alt_u32 time);
+	alt_u32 timeSinceLastSignificantMovement(alt_u32 time);
+	alt_u32 timeTillNextSignificantMovement(alt_u32 time);
 
 };
 
